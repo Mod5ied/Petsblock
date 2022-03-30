@@ -1,0 +1,17 @@
+{
+  "name": "pets",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "license": "MIT",
+  "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "express-session": "^1.17.2",
+    "helmet": "^5.0.2"
+  },
+  "scripts": {
+    "dev": "nodemon app.js"
+  }
+}
